@@ -1,0 +1,42 @@
+body {
+  color: #fff;
+  margin: 0;
+}
+
+.contenedor {
+  height: 100vh;
+  display: flex;
+}
+
+p {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor > :first-child{
+  background-color: #100;
+}
+
+.contenedor > :nth-child(2) {
+  background-color: #300;
+}
+
+.contenedor > :nth-child(3) {
+  background-color: #500;
+}
+
+.contenedor > :nth-child(4) {
+  background-color: #700;
+}
+
+.contenedor > :nth-child(5) {
+  background-color: #900;
+}
+
+.contenedor > :last-child {
+  background-color: #b00;
+}
